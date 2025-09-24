@@ -173,6 +173,14 @@ section:hover {
       margin: 0.5rem 0;
     }
     p {
-        text-align: left;  /* Override justify on mobile */
+        text-align: left;  
+      }
+      nav a {
+        display: inline-block;  
+        margin: 0.5rem;
+      }
+  
+      nav a:hover::after {
+        width: 100%;  
       }
   }
